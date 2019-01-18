@@ -4,7 +4,7 @@ To manually encode/decode a particular .txt file:
 
 	1. Make sure the `.txt` file is in the project directory, or add it
 	
-	2. Run the command `python manual_test.py` in the project directory
+	2. Run the command `python3 manual_test.py` in the project directory
 	
 	3. The prompt will ask you for the name of the text file (without quotes) 
 	   to encode (e.g. `data.txt`), and the name of the file to decode into 
@@ -12,7 +12,7 @@ To manually encode/decode a particular .txt file:
 
 ## Testing
 
-To run the unit tests, run the command `python test.py` in the root directory.
+To run the unit tests, run the command `python3 test.py` in the root directory.
 This will produce `filename-out.txt` files in the root directory that correspond
 to the output of encoding/decoding `filename.txt`.
 

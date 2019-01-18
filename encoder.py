@@ -34,7 +34,7 @@ class Encoder:
 	def encode_char(self, char, count):
 		"""
 		Given a character and the number of times it is repeated consecutively,
-		return its most space-efficient encoding.
+		return its encoding.
 		"""
 		if count > 4:
 			return char + '\u2665' + str(count) + '\u00d7'

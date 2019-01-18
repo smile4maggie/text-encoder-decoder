@@ -1,8 +1,11 @@
 ### Instructions
 
 To manually encode/decode a particular .txt file:
+
 	1. Make sure the `.txt` file is in the project directory, or add it
+	
 	2. Run the command `python manual_test.py` in the project directory
+	
 	3. The prompt will ask you for the name of the text file (without quotes) 
 	   to encode (e.g. `data.txt`), and the name of the file to decode into 
 	   (e.g. `output.txt`) which will then appear in the specfied location. 

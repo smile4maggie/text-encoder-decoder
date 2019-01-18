@@ -1,4 +1,4 @@
-### Instructions
+## Instructions
 
 To manually encode/decode a particular .txt file:
 
@@ -10,13 +10,13 @@ To manually encode/decode a particular .txt file:
 	   to encode (e.g. `data.txt`), and the name of the file to decode into 
 	   (e.g. `output.txt`) which will then appear in the specfied location. 
 
-### Testing
+## Testing
 
 To run the unit tests, run the command `python test.py` in the root directory.
 This will produce `filename-out.txt` files in the root directory that correspond
 to the output of encoding/decoding `filename.txt`.
 
-### Justification/Explanation
+## Justification/Explanation
 
 Since ASCII art tends to have many consecutively repeating characters in order to create 
 uniform, aesthetically-pleasing images, I decided on an encoding method that would account
